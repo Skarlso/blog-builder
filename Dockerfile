@@ -7,7 +7,7 @@ LABEL "version"="0.1.0"
 LABEL "com.github.actions.name"="Go Builder"
 LABEL "com.github.actions.description"="Build a hugo blog"
 LABEL "com.github.actions.icon"="package"
-LABEL "com.github.actions.color"="#E0EBF5"
+LABEL "com.github.actions.color"="purple"
 
 RUN \
   apt-get update && \
