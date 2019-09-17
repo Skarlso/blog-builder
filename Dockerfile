@@ -11,11 +11,9 @@ LABEL "com.github.actions.color"="purple"
 
 RUN \
   apt-get update && \
-  apt-get install -y ca-certificates openssl git && \
+  apt-get install -y ca-certificates openssl git hugo && \
   update-ca-certificates && \
   rm -rf /var/lib/apt
-
-RUN go get github.com/gohugoio/hugo
 
 COPY entrypoint.sh /entrypoint.sh
 
