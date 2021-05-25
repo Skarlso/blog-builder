@@ -15,7 +15,7 @@ RUN \
   update-ca-certificates && \
   rm -rf /var/lib/apt
 
-RUN curl -O -L https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.deb && dpkg -i hugo_0.83.1_Linux-64bit.deb
+RUN curl -O -L https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_extended_0.83.1_Linux-64bit.deb && dpkg -i hugo_extended_0.83.1_Linux-64bit.deb
 
 COPY entrypoint.sh /entrypoint.sh
 
