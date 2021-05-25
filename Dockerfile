@@ -19,4 +19,4 @@ RUN curl -O -L https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0
 
 COPY entrypoint.sh /entrypoint.sh
 
-# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
