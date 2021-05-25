@@ -4,4 +4,8 @@ This action builds a hugo blog.
 
 # Arguments
 
-None
+Environment property to build the theme with.
+
+```
+HUGO_THEME=meme
+```
