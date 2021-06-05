@@ -1,0 +1,9 @@
+# action.yml
+name: 'Hugo blog building'
+description: 'Takes a hugo site and builds it into a public folder. This actions is usually the precursor to blog-publisher action.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: "arrow-left-circle"
+author: "Gergely Brautigam"
